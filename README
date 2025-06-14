@@ -6,12 +6,12 @@ A **personal finance management app** built using **Flutter**, **Dart**, and **F
 
 ## 📱 Features
 
-- 📊 **Dashboard**: Overview of monthly income and expenses
-- 💸 **Expense Categories**: Food, Shopping, Entertainment, etc.
-- 🔄 **Add Income / Expense** with date and description
-- 🧮 **Budget Management**: Set monthly limits
-- 🔐 **Login / Signup** with Firebase
-- 📈 **Graphical Reports** (planned in future)
+- 📊 Dashboard with income & expense overview
+- 📂 Categorized expense tracking
+- 💸 Add Income/Expense with date and description
+- 🧾 Budget Management with spending limits
+- 🔐 Login / Signup functionality
+- 📈 Graphical reports (future scope)
 
 ---
 
@@ -23,57 +23,68 @@ A **personal finance management app** built using **Flutter**, **Dart**, and **F
 | Programming Lang | Dart                  |
 | Database         | Firebase (planned)    |
 | IDE              | Visual Studio Code    |
-| State Mgmt       | Provider (setup ready) |
+| State Mgmt       | Provider               |
 
 ---
 
+## 📸 App Screenshots
 
-```
+### 🔹 Splash Screen
+![Splash](screenshots/screenshot_1.png)
+
+### 🔹 Login Page
+![Login](screenshots/screenshot_2.png)
+
+### 🔹 Signup Page
+![Signup](screenshots/screenshot_3.png)
+
+### 🔹 Home Dashboard
+![Home](screenshots/screenshot_4.png)
+
+### 🔹 Wallet Page
+![Wallet](screenshots/screenshot_5.png)
+
+### 🔹 Add Expense
+![Expense](screenshots/screenshot_6.png)
+
+### 🔹 Create Budget
+![Budget](screenshots/screenshot_7.png)
+
+### 🔹 Profile Settings
+![Profile](screenshots/screenshot_8.png)
 
 ---
 
-## 🛠️ How to Run This Project
-
-### Step 1: Clone the Repo
+## 🚀 How to Run This Project
 
 ```bash
-git clone https://github.com/yourusername/finance-tracker-app.git
+git clone https://github.com/asra-here/finance-tracker-app.git
 cd finance-tracker-app
-```
-
-### Step 2: Get Dependencies
-
-```bash
 flutter pub get
-```
-
-### Step 3: Run the App
-
-```bash
 flutter run
 ```
 
-Make sure emulator or real device is connected.
+---
+
+## 🔒 Firebase Integration
+
+The app is Firebase-ready but not configured. To activate:
+- Add your Firebase project
+- Use `google-services.json` in `android/app/`
+- Set up authentication and Firestore
 
 ---
 
-## 🔒 Firebase Integration (Optional)
-
-Firebase structure is prepared but not configured. Add your `google-services.json` and set up Firebase Auth + Firestore for full functionality.
-
----
-
-## 📌 Author
+## 👩‍💻 Author
 
 Made by:
 
-- Asra Arshad 
-
-Project of BZU, Department of Computer Engineering.
+- Asra Arshad  
+Bahauddin Zakariya University (BZU)
 
 ---
 
 ## 📚 References
 
-- [Flutter Docs](https://flutter.dev/docs)
+- [Flutter Docs](https://flutter.dev/docs)  
 - [Firebase Docs](https://firebase.google.com/docs)
